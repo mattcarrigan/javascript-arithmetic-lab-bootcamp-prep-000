@@ -42,7 +42,10 @@ dec(a);
 
 //8 ?
 
-makeInt('0x2328');
+function makeInt(n) {
+ return parseInt(n,10);
+}
+makeInt('0x2328')
 
 
 /*
