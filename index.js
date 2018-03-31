@@ -37,31 +37,19 @@ function dec(n) {
 
 dec(a);
 
-//7 passed
+//7 8 9 passed
 
-
-//8 ?
 
 function makeInt(n) {
  return parseInt(n,10);
 }
 makeInt(a.toString())
 makeInt('0x2328')
-
+makeInt('sldkjflksjf')
 
 /*
 
 ---parseInt---
-//7 SOLVED
-describe('makeInt(n)', function() {
-  it('parses n as an integer and returns the parsed integer', function() {
-    expect(makeInt(a.toString())).toEqual(a)
-  })
-  
-//8
-  it('assumes base 10', function() {
-    expect(makeInt('0x2328')).toEqual(0)
-  })
 
 //9
 
