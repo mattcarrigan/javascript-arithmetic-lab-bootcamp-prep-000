@@ -48,7 +48,11 @@ makeInt('0x2328')
 makeInt('sldkjflksjf')
 
 
-function preserveDecimal(n)
+function preserveDecimal(n){
+  
+}
+
+preserveDecimal('2.222')
 /*
 
 ---parseInt---
