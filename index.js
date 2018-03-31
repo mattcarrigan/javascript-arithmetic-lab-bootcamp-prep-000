@@ -49,9 +49,8 @@ makeInt('sldkjflksjf')
 
 
 function preserveDecimal(n){
-  
+    parseFloat(n);
 }
-
 preserveDecimal('2.222')
 /*
 
