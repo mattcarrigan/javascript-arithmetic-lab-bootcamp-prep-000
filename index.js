@@ -39,10 +39,7 @@ dec(a);
 
 //7 passed
 
-function makeInt(n){
-  parseInt('n',10);
-}
-makeInt(a.toString());
+
 
 //8 ?
 
