@@ -45,6 +45,7 @@ dec(a);
 function makeInt(n) {
  return parseInt(n,10);
 }
+makeInt(a.toString())
 makeInt('0x2328')
 
 
