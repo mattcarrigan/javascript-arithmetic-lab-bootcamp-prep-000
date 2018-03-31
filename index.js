@@ -47,16 +47,12 @@ makeInt(a.toString())
 makeInt('0x2328')
 makeInt('sldkjflksjf')
 
+
+function preserveDecimal(n)
 /*
 
 ---parseInt---
 
-//9
-
-  it('returns NaN as appropriate', function() {
-    expect(isNaN(makeInt('sldkjflksjf'))).toEqual(true)
-  })
-})
 
 //10
 
