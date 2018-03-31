@@ -49,7 +49,7 @@ makeInt('sldkjflksjf')
 
 
 function preserveDecimal(n){
-    parseFloat(n);
+    return parseFloat(n);
 }
 preserveDecimal('2.222')
 /*
@@ -57,12 +57,6 @@ preserveDecimal('2.222')
 ---parseInt---
 
 
-//10
-
-describe('preserveDecimal(n)', function() {
-  it('preserves n\'s decimals (it parses n as a floating point number) and returns the parsed number', function() {
-    expect(preserveDecimal('2.222')).toBe(2.222)
-  })
 
 //11
   
